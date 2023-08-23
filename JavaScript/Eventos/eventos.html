@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com Eventos</title>
+
+    <script src="scriptEventos.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styleEventos.css">
+
+</head>
+<body onresize="console.log('evento disparado!')" onscroll="console.log('Scroll rolado')">
+<!--
+    <div id="principal" >
+        <input onkeypress="acao()" type="text">i</div>    
+    </div>
+-->
+
+  <!--
+        <Div id="testeResize">
+  -->  
+
+    </Div>
+
+    <input onfocus="console.log('Focado')" onblur="console.log('Desfocado')" type="text"/>
+
+    <select name="testando" id="id_teste" onchange="console.log('Opcao alterada!')">
+        <option>Selecione um valor</option>
+        <option value="1">Primeira opção</option>
+        <option value="2">Segunda opção</option>
+    </select>
+
+    
+</body>
+</html>
