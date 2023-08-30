@@ -1,0 +1,19 @@
+#principal {
+    width: 100px;
+    height: 100px;
+    border: solid 1px #000 ;
+}
+
+.estilo1 {
+    background-color: #FF0000;
+    color: #FFF;
+}
+
+.estilo2 {
+    background-color: #FFF;
+    color: #FF0000;
+}
+
+.funcoTextIn {
+    background-color:yellow;
+}
