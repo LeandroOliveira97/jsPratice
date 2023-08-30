@@ -6,9 +6,11 @@
     <title>Document</title>
 
     <script src="scriptDom.js"></script>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+<!--
     <input id="tf_entradaNome" type="text" name="" id="tf_inNome" placeholder="Digite seu nome">
 
     <input id="bt_atribuir" type="button" value="Atribuir" onclick="atribuir()">
@@ -20,6 +22,25 @@
     <span>Números <br></span>
     <input id="tf_outNro" disabled="disabled" type="text" placeholder="Se pa, nome aqui">
 
-    
+
+<button type="button" onclick="modificaEstilo('#FF0000')">Red</button>
+<button type="button" onclick="modificaEstilo('#00FF00')">Gren</button>
+<button type="button" onclick="modificaEstilo('#0000FF')">Blue</button>
+
+<hr>
+<div id="principal">
+
+</div>
+
+
+
+<div id="mensagem" class="estilo1">Modificando Classes</div>
+<hr>
+<button type="button" onclick="modificaClasse()">Modificar classe</button>
+
+-->
+
+<input type="text" name="inCaracter" id="inCaracter" placeholder="Digite aqui" onfocus="trocaFundo()" onblur="contaCaracter()">
+
 </body>
 </html>
