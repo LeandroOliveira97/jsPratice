@@ -6,10 +6,11 @@ function atualizarTa(arrayObj) {
 }
 
 
+
 function inserirObjetoArray() {
 
     if (document.getElementById('in_objetos').value != '') {
-        gi
+        
         var objeto = document.getElementById('in_objetos').value;
 
 
@@ -29,11 +30,8 @@ function inserirObjetoArray() {
     } else {
         alert('Valor inválido!');
     }
-
-
-
-
 }
+
 
 function ordenar() {
 

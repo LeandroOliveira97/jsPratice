@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        var janela;
+        function abreJanela() {
+            janela = window.open('../Calculadora/arquivos_necessarios/index.html', "_blank");
+        }
+
+        function fechaJanela() {
+            janela.close();
+        }
+    </script>
+</head>
+
+<body>
+    <button type="button" onclick="abreJanela()">Abre janela</button>
+    <button type="button" onclick="fechaJanela()">Fecha janela</button>
+</body>
+
+</html>
